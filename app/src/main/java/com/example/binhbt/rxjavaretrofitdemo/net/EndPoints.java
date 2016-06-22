@@ -16,7 +16,7 @@ public interface EndPoints {
 	String API_ENDPOINT = "http://www.android10.org/myapi/";
 
 	//http://www.android10.org/myapi/users.json
-	@GET("users.jsonx")
+	@GET("users.json")
 	public Observable<List<User>>
 	userEntityList();
 
